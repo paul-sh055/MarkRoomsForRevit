@@ -134,16 +134,16 @@ using System.Linq;
                         string[,,] sRoomlArrZP = new string[iLevelCount + 1, iFlatCount + 1, 41]; //массив помещений, параметр ROM_Подзона
                     
 
-                        for (int lev = 0; lev < iLevelCount; lev++) //перечисляем этажи
+                        for (int lev = 0; lev < iLevelCount; lev++) //этажи
                         {
                             
                             if (LevelArr1[lev] != "")
                             { 
-                                for (int fl = 0; fl < iFlatCount; fl++) //перечисляем квартиры
+                                for (int fl = 0; fl < iFlatCount; fl++) //квартиры
                                 {
                                     int r3 = 0;
 
-                                    for (int r = 0; r < iRoomsKorp; r++) //перечисляем квартирные помещения секции
+                                    for (int r = 0; r < iRoomsKorp; r++) //квартирные помещения секции
                                     {
                                         if (RoomsKorpArr[r] != null)
                                         {
