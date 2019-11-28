@@ -270,7 +270,7 @@ using System.Linq;
                                
 
 
-                            //парсим номера квартир, записываем в массив int, расставляем номера квартир по возрастающей
+                            //конвертируем в int номера квартир, записываем в массив int, расставляем номера квартир по возрастающей
 
                             int[] iRoomlArrZ = new int[iFL + 1]; 
                         
@@ -340,7 +340,7 @@ using System.Linq;
                             for (int fl = 0; fl < eRoomlArr4.GetLength(0); fl++)
                             {
 
-                                //парсим номер первой квартиры
+                                //конвертируем в int номер первой квартиры
                                 int numb1 = 0; int numbFL1 = 0;
                                 string TypeFl1 = ""; string TypeFl2 = "";
 
@@ -351,7 +351,7 @@ using System.Linq;
                                 else{ numbFL1 = 0; }
 
 
-                                //парсим номер следующей по номеру квартиры
+                                //конвертируем в int номер следующей по номеру квартиры
                                 int numb2 = 0; int numbFL2 = 0;
                                 if (fl < eRoomlArr4.GetLength(0)-1)
                                 { 
